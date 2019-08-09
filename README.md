@@ -1,2 +1,2 @@
 # BarFinder
-An Alexa skill that looks up different types of bars nearby using Yelp's API
+An Alexa skill that looks up information about different types of nearby bars using Yelp's API
