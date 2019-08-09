@@ -1,0 +1,23 @@
+
+var WELCOME = 'Welcome to the Bar Searcher Alexa skill. Ask me about bars near you or say help to learn how.';
+var ASK_LOCATION_PERMISSION = "Please enable Location permissions in the Amazon Alexa app. if you don't want to give Alexa this info, just say random bar in city, replacing the word city with whaetver city you are in";
+var TELL_SET_ADDRESS = "It looks like you don't have an address set. You can set your address from the Alexa app.";
+var TELL_SET_PERMISSIONS = "Please enable Location permissions in the Amazon Alexa app.";
+var ERROR_DEVICE_ADDR_API = "There was an error with the Device Address API. Please try again.";
+var SOMETHING_WRONG = "Uh Oh. Looks like something went wrong.";
+var CAN_TELL_MORE = "%s. I can tell you more info about this bar, or you can ask me about other bars.";
+var RATING = "It has %s stars on yelp";
+var DISTANCE = " which is about %s miles away";
+var LOCATION = "It is located at %s";
+var LOCATION_CITY = LOCATION + " in %s";
+var LOCATION_ERROR = "Sorry, I don't have any location information for this bar. I can tell you more info about this bar, or you can ask me about other bars.";
+var UTTER_EXAMPLE = 'Say Give me a random bar near me, or give me a random bar in city to get a random bar near you or in your respective city.';
+var UTTER_DRINK_RESPONSIBLY = 'Drink responsibly!';
+var UNHANDLED = 'I\'m sorry, I didn\'t get that';
+var ERROR_LOAD = 'Sorry I can\'t answer you at this time. Please wait a couple seconds and ask Alexa again';
+var NO_PRICING_DATA = "yelp doesn't have any pricing info on this bar, so leave a review and let them know how pricey it is if you go";
+var ONE_DOLLAR_SIGN = "It is a pretty cheap bar";
+var TWO_DOLLAR_SIGN = "Its a moderately priced place, not too expensive but not ultra cheap";
+var THREE_DOLLAR_SIGN = "this is a pretty pricey spot";
+var FOUR_DOLLAR_SIGN = "Yikes don't forget to bring your wallet, this place is expensive";
+var CANT_FIND =  "Sorry, I can't find any %s open near %s at this time. Feel free to ask for a different type of bar or a different city."
